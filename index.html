@@ -36,10 +36,62 @@
                 </div>
             </div>
             <div class="section" id="summary">
-
+                <div class="heading summary">
+                    SUMMARY
+                </div>
+                <div class="subsection summary">
+                    <ul>
+                        <li>
+                            <p>
+                                Bio:
+                            </p>
+                            <p>
+                                I am an enthusiastic front end and back end programmer.
+                                Studied Physics (Electronics) @ the Federal University of Technology
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Hobbies:
+                            </p>
+                            <p>
+                                Programming, Learning, Reading, Hacking into Electronic scraps.
+                            </p>
+                        </li>
+                        <li>
+                            <p>Interests</p>
+                            <p>Programming,
+                                Electronics,
+                                Theoretical Physics.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="section" id="contactme">
-
+                
+                <form action="processcontact.php" method="post">
+                    <p>
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" />
+                    </p>
+                    <p>
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" required/>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" required/>
+                    </p>
+                    <p>
+                        <label for="">Phone Number</label>
+                        <input type="tel" name="phone_number" required/>
+                    </p>
+                    <p>
+                        <label for="message">Message</label>
+                        <textarea name="message"></textarea>
+                    </p>
+                </form>
             </div>
         </main>
     </div>

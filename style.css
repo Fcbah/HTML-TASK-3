@@ -1,6 +1,6 @@
 :root{
     box-sizing: border-box;
-    font-family:Helvetica, Arial,sans-serif;
+    font-family: U8, Helvetica, Arial,sans-serif;
 }
 
 *,
@@ -19,6 +19,7 @@ header{
     color:#fff;
     background-color: #0090d2;
     padding:0.5em;
+    text-align: center;
 }
 
 #biodata{
@@ -81,4 +82,7 @@ h2{
     text-transform: uppercase;
     color: #fff;
     border: 1px solid #fff;
+}
+label, input{
+    display:block;
 }
