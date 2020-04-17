@@ -23,6 +23,7 @@ header{
 
 #biodata{
     display:flex;
+    align-items: center;
 }
 
 .container{
@@ -32,7 +33,7 @@ header{
 .section {
     background-color: #fff;
     border-radius: 0.5em;
-    padding: 1.5em;
+    padding: 0.5em;
 }
 .section img{
     width: 200px;
@@ -42,18 +43,19 @@ header{
     /* border-style: double; */
     border: 9px solid #eee;
     border-radius: 100px;
-    margin-right: 3em;
+    margin-right: 1em;
 }
 
 .sub-section{
     background-color: #0090d2;
     width:70%;
     border-radius: 0;
+    padding:.5em;
 }
 .grid{
     margin: 0;
     display: grid;
-    grid-template-columns: 1fr 2fr ;
+    grid-template-columns: 1.3fr 2fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 0.5em;
     padding: .2em;
@@ -61,17 +63,22 @@ header{
 .grid > *{
     background-color: #fff;
     border-radius: 0.5em;
-    text-align: center;
-    padding: .5em 0;
+    text-align: left;
+    padding: .3em 0 .3em 1em;
     margin:0;
+}
+#biodata .title{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding:.3em 0;
 }
 h2{
     padding: 3px;
     text-align: center;
-    margin: .5em -3px;
+    margin: .5em -.5em;
     /* margin-top: 10px; */
     text-transform: uppercase;
     color: #fff;
     border: 1px solid #fff;
-    
 }
