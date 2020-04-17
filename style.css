@@ -21,8 +21,11 @@ header{
     padding:0.5em;
 }
 
-.section{
-    display:flexbox;
+#biodata{
+    display:flex;
+}
+
+.section {
     background-color: #fff;
     border-radius: 0.5em;
     padding: 1.5em;
@@ -35,4 +38,14 @@ header{
     /* border-style: double; */
     border: 9px solid #eee;
     border-radius: 100px;
+    margin-right: 3em;
+}
+
+.sub-section{
+    background-color: #eee;
+    width:70%;
+    border-radius: 1.5em;
+}
+h2{
+    text-align: center;
 }
