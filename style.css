@@ -1,0 +1,25 @@
+:root{
+    box-sizing: border-box;
+    font-family:Helvetica, Arial,sans-serif;
+}
+
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #eee;
+}
+
+.section{
+    display:flexbox;
+}
+.section img{
+    width: 200px;
+    height: 200px;
+    object-fit:scale-down;
+    object-fit: cover;
+    border-style: double;
+    border: 2px solid blue;
+}
