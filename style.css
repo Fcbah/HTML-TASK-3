@@ -8,6 +8,9 @@
 ::after{
     box-sizing: inherit;
 }
+* + *{
+    margin-top: 1em;
+}
 body{
     background-color: #eee;
 }
@@ -16,7 +19,6 @@ header{
     color:#fff;
     background-color: #0090d2;
     padding:0.5em;
-    margin:1em 0;
 }
 
 .section{
@@ -31,6 +33,6 @@ header{
     /* object-fit:scale-down; */
     object-fit: cover;
     /* border-style: double; */
-    border: 5px solid #0008c4;
-    border-radius: 9em;
+    border: 9px solid #eee;
+    border-radius: 100px;
 }
