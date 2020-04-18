@@ -30,6 +30,7 @@ header{
 #biodata{
     display:flex;
     align-items: center;
+    background-color: #0090d2;
 }
 
 
@@ -58,6 +59,7 @@ header{
     width:70%;
     border-radius: 0 .5em .5em 0;
     padding:.5em;
+    border-left: 4px solid #fff;
 }
 .grid{
     margin: 0;
