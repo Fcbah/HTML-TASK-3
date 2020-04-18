@@ -50,7 +50,7 @@ header{
     /* border-style: double; */
     border: 9px solid #eee;
     border-radius: 100px;
-    margin-right: 1em;
+    margin:0 1em;
 }
 
 .sub-section{
@@ -75,7 +75,7 @@ header{
     margin:0;
 }
 #biodata .title{
-    font-weight: bold;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
     padding:.3em 0;
@@ -89,15 +89,33 @@ header{
     color: #fff;
     border: 1px solid #fff;
 }
-#summary{
-    padding:0;
-}
 .summaries{
-    padding: 10vh 0;
+    padding: 3vh 0;
+    margin-bottom: 0;
     background-color: #0090d2;
     color: #fff;
     text-align: center;
     border-radius: .5em .5em 0 0;
+}
+.summary-topic{
+    display:flex;
+}
+.summary-topic p{
+    padding:1.5em;
+    text-align: justify;
+}
+.summary-topic .title{
+    width:20%;
+    text-align: center;
+    background: #0090d2;
+    margin:0;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#eee;
+    border-bottom: 1px solid #fff;
+}
+.summary-topic .description{
+    width:80%;
 }
  
 label, input{
