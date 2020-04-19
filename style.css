@@ -8,11 +8,11 @@
 ::after{
     box-sizing: inherit;
 }
-body * + *{
+main > * {
     margin-top: 1em;
 }
 
-#content .section *{
+#content .section > *{
     margin-top: 0;
 }
 
@@ -30,12 +30,13 @@ header{
 #biodata{
     display:flex;
     align-items: center;
-    background-color: #0090d2;
+    /* background-color: #0090d2; */
 }
 
 
 .container{
-    max-width: 700px;
+    max-width: 900px;
+    min-width: 500px;
     margin: 0 auto;
 }
 .section {
@@ -44,22 +45,22 @@ header{
     /* padding: 0.5em; */
 }
 .section img{
-    width: 200px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
     /* object-fit:scale-down; */
     object-fit: cover;
     /* border-style: double; */
     border: 9px solid #eee;
-    border-radius: 100px;
+    border-radius: 15rem;
     margin:0 1em;
 }
 
 .sub-section{
     background-color: #0090d2;
-    width:70%;
     border-radius: 0 .5em .5em 0;
     padding:.5em;
-    border-left: 4px solid #fff;
+    width: calc(100% - 15rem);
+    /* border-left: 4px solid #fff; */
 }
 .grid{
     margin: 0;
@@ -72,14 +73,17 @@ header{
 .grid > *{
     background-color: #fff;
     border-radius: 0.5em;
-    text-align: left;
+    text-align: justify;
     padding: .3em 0 .3em 1em;
     margin:0;
+    color: #093f58;
+    font-weight: 700;
 }
 #biodata .title{
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+    font-size: .9em;
     padding:.3em 0;
 }
 .bio_data h2{
@@ -93,7 +97,7 @@ header{
 }
 
 
-
+/*This is for the  Summary Section*/
 
 
 .summaries{
@@ -121,7 +125,7 @@ header{
     text-transform: uppercase;
     color:#eee;
     border-bottom: 1px solid #fff;
-    padding: 20px 0;
+    padding: 1.8em 0;
 }
 .summary-topic .description{
     width:80%;
@@ -132,7 +136,37 @@ header{
 .summary-topic > .first{
     border-top: 1px solid #fff;
 }
- 
-label, input{
+
+/*This is the form section*/
+
+
+ label{
+     color: #444;
+    font-weight: 700;
+    font-size: .87em;
+ }
+input,button,textarea{
     display:block;
+    margin:1em 2px 1.5em 1.5em;
+    border:none;
+    background-color: #eeeeee;
+    border-radius:.3em;
+    padding:.4em 1px;
+}
+form{    
+    padding:1.5em;
+    display:flex;
+    background-color: #0090d2;
+}
+form > *{
+    width:50%;
+    padding:1.5em 1.5em;
+    background-color: #fff;
+    margin-right: 1em;
+    border-radius: .5em;
+    /* border-left: 5px solid #0090d2; */
+}
+form > * + *{
+    margin-right: 0;
+    margin-left: 1em;
 }
