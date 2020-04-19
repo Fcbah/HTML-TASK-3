@@ -139,6 +139,15 @@ header{
 
 /*This is the form section*/
 
+#contactme h2{
+    text-align: center;
+    background-color: #0090d2;
+    margin: 0;
+    padding: .5em 0 0 0;
+    color: #fff;
+    border-radius: .5em .5em 0 0;
+    text-transform: uppercase;
+}
 
  label{
      color: #444;
@@ -147,11 +156,11 @@ header{
  }
 input,button,textarea{
     display:block;
-    margin:1em 2px 1.5em 1.5em;
+    /* margin:1em 2px 1.5em 1.5em;
     border:none;
     background-color: #eeeeee;
     border-radius:.3em;
-    padding:.4em 1px;
+    padding:.4em 1px; */
 }
 form{    
     padding:1.5em;
