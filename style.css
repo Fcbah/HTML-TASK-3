@@ -1,6 +1,6 @@
 :root{
     box-sizing: border-box;
-    font-family: U8, Helvetica, Arial,sans-serif;
+    font-family: Helvetica, Arial,sans-serif;
 }
 
 *,
@@ -26,7 +26,7 @@ body{
 
 
 header{
-    border-radius: 0.5em;
+    border-radius: 0.5em .5em 0 0;
     color:#fff;
     background-color: #0090d2;
     padding:0.5em;
