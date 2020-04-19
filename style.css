@@ -137,7 +137,12 @@ header{
     border-top: 1px solid #fff;
 }
 
+
+
 /*This is the form section*/
+
+
+
 
 #contactme h2{
     text-align: center;
@@ -149,19 +154,6 @@ header{
     text-transform: uppercase;
 }
 
- label{
-     color: #444;
-    font-weight: 700;
-    font-size: .87em;
- }
-input,button,textarea{
-    display:block;
-    /* margin:1em 2px 1.5em 1.5em;
-    border:none;
-    background-color: #eeeeee;
-    border-radius:.3em;
-    padding:.4em 1px; */
-}
 form{    
     padding:1.5em;
     display:flex;
@@ -171,11 +163,35 @@ form > *{
     width:50%;
     padding:1.5em 1.5em;
     background-color: #fff;
-    margin-right: 1em;
+    margin-right: .75em;
     border-radius: .5em;
     /* border-left: 5px solid #0090d2; */
 }
 form > * + *{
     margin-right: 0;
-    margin-left: 1em;
+    margin-left: .75em;
+}
+
+.form-group{
+    margin-bottom: 2em;
+}
+
+label{
+    display:block;
+    color: #444;
+   font-weight: 700;
+   font-size: .75em;
+}
+input,textarea{
+    width: 100%;
+   display:block;
+   font-size: 1rem;
+   background-color: rgb(237,242, 247);
+   padding: .8em;
+   color: #1a282c;
+   border:none;
+   /* margin:1em 2px 1.5em 1.5em;
+   border:none;
+   background-c87em87emolor: #eeeeee;
+   border-radius:.3em;
 }
