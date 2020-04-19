@@ -8,6 +8,7 @@
 ::after{
     box-sizing: inherit;
 }
+
 main > * {
     margin-top: 1em;
 }
@@ -19,6 +20,11 @@ main > * {
 body{
     background-color: #eee;
 }
+
+
+/*heading*/
+
+
 header{
     border-radius: 0.5em;
     color:#fff;
@@ -26,6 +32,10 @@ header{
     padding:0.5em;
     text-align: center;
 }
+
+
+
+/*Biodata*/
 
 #biodata{
     display:flex;
@@ -181,12 +191,13 @@ label{
     color: #444;
    font-weight: 700;
    font-size: .75em;
+   margin-bottom: 4px;
 }
 input,textarea{
     width: 100%;
    display:block;
    font-size: 1rem;
-   background-color: rgb(237,242, 247);
+   background-color: rgb(237,242,247);
    padding: .8em;
    color: #1a282c;
    border:none;
@@ -194,4 +205,20 @@ input,textarea{
    border:none;
    background-c87em87emolor: #eeeeee;
    border-radius:.3em;
+   */
+}
+textarea{
+    height: 250px;
+}
+
+#contactme button{
+    display:block;
+    width: 100%;
+    background-color: #0090d2;
+    text-transform: uppercase;
+    padding: 20px 0;
+    color:#fff;
+    border-radius: .7em .7em 0 0;
+    font-size: 1rem;
+    font-weight: bold;
 }
